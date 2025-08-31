@@ -228,4 +228,10 @@ The converter path is misconfigured.
 
 For non-textual CAD content, consider using image-based OCR or CAD-specific AI tools.
 
+
 Ensure that text in the CAD files is accurately positioned and readable, otherwise RAG retrieval may fail to provide relevant answers.
+
+
+##updates
+
+for updates (frontend, fastapis) "git pull origin main"
