@@ -49,12 +49,7 @@ def load_csv(file_path: str) -> str:
 
 
 def load_dxf(file_path: str):
-    """
-    Extracts only TEXT and MTEXT entities from DXF and returns a list of JSON-like dicts.
-    Each dict contains the entity type, text content, and position.
-    """
-    import ezdxf
-
+    #handles dxf file extract text entities for chatbot
     doc = ezdxf.readfile(file_path)
     msp = doc.modelspace()
     info = []
